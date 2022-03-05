@@ -1,0 +1,114 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    background-color: rgba(20, 0, 201, 0.692);
+    height: 600px;
+}
+.header:hover{
+    background-color: #AD310B;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+h1{
+    color: antiquewhite;
+    font-size: 50px;
+}
+.live-button{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #E02C6D;
+    padding: 20px 30px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.half-width img{
+    width: 80%;
+    padding-right: 20%;
+}
+
+.photo-frame{
+    width: 300px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 40px rgba(14, 12, 12, 0.15);
+    margin: 10px;
+    margin-left: 50px;
+}
+.photo img{
+    width: 90%;
+    padding: 15px;
+}
+.photo-album{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.photo-detail{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#news{
+    color: rgba(20, 0, 201, 0.692);
+}
+.latest-news {
+    margin: 0;
+    padding: 5px;
+    background-color: #ffffff;
+  }
+  
+  .latest-news > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .news-details {
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 2px 40px rgba(61, 61, 61, 0.15);
+    margin-bottom: 20px;
+  }
+  
+  .news-details > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+  .read-more{
+      text-decoration: none;
+      color: rgba(20, 0, 201, 0.692);
+      padding-left: 5px;
+      padding: 3px 5px;
+      border-radius: 6px;
+  }
+  .subscribe-container{
+      text-align: center;
+      background-color: rgba(200, 238, 255, 0.432);
+      height: 150px;
+  }
+  .subscribe-container > h2{
+      padding: 20px;
+  }
+.footer{
+    padding-left: 45%;
+}
+.footer-img{
+    width: 30%;
+}
+.social-links{
+    padding-left: 50px;
+}
+h6{
+    padding-left: 20px ;
+}
+@media screen and (min-wisth:1024px) {
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 100%;
+}
+@media  screen and (max-width 767px) {
+    width: 100%;
+}
